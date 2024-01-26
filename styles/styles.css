@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.tweet {
+
+    border: 1px solid #DADDDF;
+    display: flex;
+    margin: 137px 508px 147px 502px;
+    padding: 17px 0 19px 17px;
+    background-color: #ffffff;
+}
+
+.container-sweet {
+    display: flex;
+}
+
+.image-logo {
+    width: 48px;
+    height: 48px;
+}
+
+.container-content-sweet {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.title-content-sweet {
+    display: flex;
+}
+
+.checked-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.title-date {
+    font-size: 15px;
+    font-weight: 400;
+    color: #536471;
+    margin-left: 6px;
+}
+
+.text-content {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0F1419;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+
+}
+
+.text-content-and {
+    font-size: 15px;
+    font-weight: 400;
+    color: #0F1419;
+
+}
+
+.content-footer {
+    margin-top: 15px;
+    display: flex;
+    gap: 73px;
+}
+
+.image-comments {
+    height: 13, 489px;
+    width: 13px;
+}
+
+.footer-number-comments {
+    margin-left: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #536471;
+}
+
+.image-retwettar {
+    height: 15px;
+    width: 15px;
+
+}
+
+.footer-number {
+    margin-left: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #536471;
+
+}
+
+.image-favorite {
+    width: 15px;
+    height: 15px;
+}
+
+.number-favorite {
+    margin-left: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #536471;
+
+}
+
+.image-share {
+    width: 13px;
+    height: 14, 441px;
+}
