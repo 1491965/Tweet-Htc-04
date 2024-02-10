@@ -16,7 +16,8 @@
     height: 161px;
     border: 1px solid #dadddf;
     display: flex;
-    padding: 17px 17px 0 19px;
+    padding: 17px 17px 0px 19px;
+    
     
     
 }
@@ -30,7 +31,7 @@
     margin-left: 12px;
     
 }
-.title-tweet {
+.header-tweet {
     display: flex;
 }
 .checked-icon {
@@ -38,8 +39,19 @@
     height: 15px;
     margin-left: 3px;
 }
+.header-tweet-date {
+    font-size: 15px;
+    font-weight: 400;
+    color: #536471;
+    
+}
 .text-content {
-    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0F1419;
+    margin-top: 5px;
+    
+
 }
 .text-content-and {
     font-size: 15px;
@@ -48,17 +60,21 @@
     margin-top: 15px;
     
 }
-.content-footer {
+.footer-tweet {
     display: flex;
     margin-top: 15px;
     justify-content:space-between ;
+    
+    
 }
+
 .footer-number-comments {
     margin-left: 17px;
     font-size: 13px;
     font-weight: 400;
     color: #536471;
 }
+
 .footer-number {
     margin-left: 18px;
     font-size: 13px;
@@ -77,6 +93,7 @@
     font-size: 13px;
     font-weight: 400;
     color: #536471;
+    
 
 }
 .image-comments {
@@ -87,54 +104,17 @@
 
 
 
-/*
-.image-comments {
-
-    border: 1px solid #DADDDF;
-    display: flex;
-    margin: 137px 508px 147px 502px;
-    padding: 17px 0 19px 17px;
-    background-color: #ffffff;
-}
-
-.container-sweet {
-    display: flex;
-
-}
-
-
-
-.container-content-sweet {
-    display: flex;
-    flex-direction: column;
-    margin-left: 12px;
-}
 
 
 
 
 
-.title-date {
-    font-size: 15px;
-    font-weight: 400;
-    color: #536471;
-    margin-left: 6px;
-}
-
-.text-content {
-    font-size: 15px;
-    font-weight: 400;
-    color: #0F1419;
-    margin-top: 5px;
-    margin-bottom: 10px;
 
 
-}
 
-.text-content-and {
-   
 
-}
+
+
 
 .content-footer {
     margin-top: 15px;
@@ -146,15 +126,4 @@
 
 
 
-.image-retwettar {
-    height: 15px;
-    width: 15px;
 
-}
-
-
-.image-share {
-    width: 13px;
-    height: 14, 441px;
-}
-*/
